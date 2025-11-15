@@ -15,4 +15,9 @@ This project aims to help detect fire incidents at early stages by monitoring vi
 
 ---
 
-## 🏗️ Project Structure
+## 💾 Dataset
+
+The dataset used in this project was obtained from **Roboflow Universe**:
+
+🔗 [Classification of Fire and Smoke Dataset (Roboflow)](https://universe.roboflow.com/classificationfire/classification-of-fire-and-smoke/dataset/1)
+
