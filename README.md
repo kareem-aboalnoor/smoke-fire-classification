@@ -28,16 +28,4 @@ It contains labeled images classified into three categories:
 
 This dataset was used for training and testing the Convolutional Neural Network (CNN) model to distinguish between different fire stages from video frames.
 
-Dataset credits © Roboflow Universe – "Classification of Fire and Smoke" Project.
 
----
-
-## Dataset Import (Optional)
-If you want to load this dataset directly in your Python project, you can use the Roboflow API:
-
-```python
-from roboflow import Roboflow
-
-rf = Roboflow(api_key="YOUR_API_KEY")
-project = rf.workspace("classificationfire").project("classification-of-fire-and-smoke")
-dataset = project.version(1).download("folder")
